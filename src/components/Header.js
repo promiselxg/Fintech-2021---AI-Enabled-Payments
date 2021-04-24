@@ -8,6 +8,11 @@ const Header = () => {
         <div className="header__logo"></div>
         <div className="header__link">
           <span>
+            <Link to="/">
+              <p>Home</p>
+            </Link>
+          </span>
+          <span>
             <Link to="/about">
               <p>About</p>
             </Link>
