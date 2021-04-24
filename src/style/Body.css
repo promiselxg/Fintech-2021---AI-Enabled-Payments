@@ -21,7 +21,7 @@
 }
 .body__left {
   flex: 0.5;
-  padding: 50px;
+  padding: 40px;
 }
 .body__left > h1 {
   font-size: 45px;
@@ -32,6 +32,7 @@
 .body__left > p {
   font-size: 16px;
   color: #fff;
+  font-weight: 300;
   line-height: 1.5em;
 }
 .body__left > button {
