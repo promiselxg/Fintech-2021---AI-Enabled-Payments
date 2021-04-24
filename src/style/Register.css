@@ -9,7 +9,7 @@
   flex-direction: column;
   width: 100%;
 }
-.register__app > h1 {
+h1 {
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -38,4 +38,7 @@ form {
   margin-right: 20px;
   margin-top: 5px;
   justify-content: flex-end;
+}
+.button > button {
+  margin-right: 5px;
 }
