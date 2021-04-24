@@ -17,13 +17,18 @@
   display: flex;
   margin-right: 200px;
 }
-.header__link > span {
+.header__link > span > a > p {
   margin-right: 10px;
 }
-.header__link > span > p {
+.header__link > span > a:active {
+  text-decoration: none;
+}
+.header__link > span > a > p {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
 }
 .header__link > span > p:hover {
   cursor: pointer;

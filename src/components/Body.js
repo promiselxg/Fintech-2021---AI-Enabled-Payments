@@ -2,13 +2,14 @@ import React from "react";
 import selfie from "../Images/rain.svg";
 import "../style/Body.css";
 import { Button } from "@material-ui/core";
+
 const Body = () => {
   return (
     <div className="app__body">
       <div className="body__inner">
         <div className="body__content">
           <div className="body__left">
-            <h1>Welcome to UniqueID</h1>
+            <h1>Promise ID</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Reiciendis consequatur illum error facilis labore doloremque
