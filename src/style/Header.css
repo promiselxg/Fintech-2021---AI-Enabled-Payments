@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.header__logo {
+  display: flex;
+  flex: 1;
+  margin-left: 20px;
+}
+.header__link {
+  display: flex;
+  margin-right: 200px;
+}
+.header__link > span {
+  margin-right: 10px;
+}
+.header__link > span > p {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.header__link > span > p:hover {
+  cursor: pointer;
+}

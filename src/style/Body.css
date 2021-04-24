@@ -1,0 +1,49 @@
+.app__body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.body__inner {
+  display: flex;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.body__content {
+  margin-left: 50px;
+}
+.body__content {
+  display: flex;
+  align-items: center;
+}
+.body__left {
+  flex: 0.5;
+  padding: 50px;
+}
+.body__left > h1 {
+  font-size: 45px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.body__left > p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5em;
+}
+.body__left > button {
+  margin-top: 20px;
+  padding: 10px;
+}
+.body__right {
+  flex: 0.4;
+}
+.body__right > img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  margin-right: 30px;
+}
