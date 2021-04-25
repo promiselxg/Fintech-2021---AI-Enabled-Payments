@@ -1,6 +1,11 @@
-.face > img {
-  height: 200px;
-  object-fit: contain;
-  align-items: center;
-  margin-bottom: 20px;
+.face {
+  height: 400px !important;
+  width: 400px;
+  margin: 0px auto;
+}
+.video {
+  width: 200px !important;
+}
+.kvKMQz {
+  height: 200px !important;
 }
