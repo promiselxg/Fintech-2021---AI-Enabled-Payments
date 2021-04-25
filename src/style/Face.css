@@ -1,0 +1,6 @@
+.face > img {
+  height: 200px;
+  object-fit: contain;
+  align-items: center;
+  margin-bottom: 20px;
+}
