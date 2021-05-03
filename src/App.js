@@ -1,9 +1,15 @@
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Team from "./components/Team";
+
 function App() {
   return (
     <div className="app">
-      <header className="app__header">
-        <h1>app header</h1>
-      </header>
+      <Header />
+      <Body />
+      <Team />
+      <Footer />
     </div>
   );
 }

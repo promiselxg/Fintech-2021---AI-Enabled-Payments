@@ -1,0 +1,53 @@
+.app__footer {
+  width: 100%;
+  display: flex;
+  background-color: #00cf6d;
+}
+.footer {
+  margin: 40px 30px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+}
+.left > h1 {
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
+.left > p {
+  font-weight: 300;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+}
+.center > h1 {
+  color: whitesmoke;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  margin-top: 4px;
+}
+.center > h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.right > img {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}

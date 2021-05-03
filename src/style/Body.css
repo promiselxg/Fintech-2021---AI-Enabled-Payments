@@ -1,0 +1,35 @@
+.app__body {
+  display: flex;
+  width: 100%;
+}
+.app__body__container {
+  margin: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.card > img {
+  height: 300px;
+  object-fit: contain;
+}
+.card:nth-child(even) img {
+  order: 2;
+}
+.card > div > h1 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #1f1f1f;
+  font-size: 2rem;
+}
+.card > div > p {
+  line-height: 1.7rem;
+  color: #1f1f1f;
+  font-weight: 300;
+}
