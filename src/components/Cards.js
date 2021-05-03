@@ -17,7 +17,7 @@ const Cards = () => {
           </p>
         </div>
       </section>
-      <section className="card">
+      <section className="card" data-aos="fade-right">
         <img src={Solution} alt="proposed solution" />
         <div>
           <h1>Proposed Solution</h1>
@@ -30,7 +30,7 @@ const Cards = () => {
           </p>
         </div>
       </section>
-      <section className="card">
+      <section className="card" data-aos="fade-left">
         <img src={Roadmap} alt="one year roadmap" />
         <div>
           <h1>one year roadmap</h1>

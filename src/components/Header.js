@@ -29,7 +29,7 @@ const Header = () => {
             </p>
             <Button variant="contained">Get Started</Button>
           </div>
-          <div className="app__containerRight">
+          <div className="app__containerRight" data-aos="fade-left">
             <img src={Welcome} alt="uniqID" />
           </div>
         </div>
