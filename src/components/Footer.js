@@ -24,9 +24,6 @@ const Footer = () => {
             </div>
             <div className="right">
               <img src={mockup} alt="Mockup" />
-              <Button variant="contained" color="primary">
-                Download
-              </Button>
             </div>
           </div>
         </div>

@@ -8,17 +8,17 @@ const Team = () => {
         <div className="team">
           <h1>Team Members</h1>
           <p>Meet our team members</p>
-          <div className="team__members">
+          <div className="team__members" data-aos="fade-right">
             <Members
               Image="https://media-exp1.licdn.com/dms/image/C5603AQFwHGitMj421g/profile-displayphoto-shrink_200_200/0/1619795916464?e=1625702400&v=beta&t=DRXDM3WHQ4F-TCmi0V33Xsd9dE91lkxfZgY7VpMrR50"
               Name="Veranika Lämmlein"
             />
             <Members
-              Image="https://media-exp1.licdn.com/dms/image/C4E35AQH-CKE16ZZQOQ/profile-framedphoto-shrink_200_200/0/1619905217451?e=1620144000&v=beta&t=1D_5RcVTjy5OLEkS6bP5yUo3RXfibDODUv8wPnuH5aI"
+              Image="https://trello-attachments.s3.amazonaws.com/6083294b0e8ade44abbd085a/60842ccc5f2f280543da9334/9b0d5896e8c89013fd49c014ebdf77d5/Picture.jpg"
               Name="Daniel Gonzalez"
             />
             <Members
-              Image="https://media-exp1.licdn.com/dms/image/C4D35AQHMyOyb8sMCZw/profile-framedphoto-shrink_200_200/0/1619779786336?e=1620144000&v=beta&t=weaZFhyLK2zVS6fwF2n8url-sHHu0CKnJ99qCc3_DxM"
+              Image="https://i.stack.imgur.com/l60Hf.png"
               Name="Rashid Mvk"
             />
             <Members
@@ -34,11 +34,11 @@ const Team = () => {
               Name="Pani Maddi"
             />
             <Members
-              Image="https://media-exp1.licdn.com/dms/image/C5603AQFx5WEjMIgdhw/profile-displayphoto-shrink_200_200/0/1566554542158?e=1625702400&v=beta&t=O93s1KcHJGzofii6CnRKubgXu5MAzN9PAWK032r2BzM"
+              Image="https://trello-attachments.s3.amazonaws.com/6083294b0e8ade44abbd085a/60842ccc5f2f280543da9334/fd6d443111a600715675b28d51bbbb90/IMG_20191030_125930_0_1572450671164.jpg"
               Name="Anuforo Okechukwu Promise"
             />
             <Members
-              Image="https://media-exp1.licdn.com/dms/image/C5603AQFQcfw_45MHwQ/profile-displayphoto-shrink_200_200/0/1616426909928?e=1623888000&v=beta&t=cuRlKqC1-v-KyQ9gi8vGmBGKcHVumj-LE4eLppXJwhA"
+              Image="https://i.stack.imgur.com/l60Hf.png"
               Name="Mital Pattani"
             />
           </div>
