@@ -4,7 +4,7 @@ import Wallet from "../image/welcome.svg";
 const Cards = () => {
   return (
     <>
-      <section className="card">
+      <section className="card" data-aos="zoom-in">
         <img src={Wallet} alt="wallet" />
         <div>
           <h1>Background of Problem</h1>
@@ -17,7 +17,7 @@ const Cards = () => {
           </p>
         </div>
       </section>
-      <section className="card" data-aos="fade-right">
+      <section className="card" data-aos="zoom-in">
         <img src={Solution} alt="proposed solution" />
         <div>
           <h1>Proposed Solution</h1>
@@ -30,7 +30,7 @@ const Cards = () => {
           </p>
         </div>
       </section>
-      <section className="card" data-aos="fade-left">
+      <section className="card" data-aos="zoom-in">
         <img src={Roadmap} alt="one year roadmap" />
         <div>
           <h1>one year roadmap</h1>

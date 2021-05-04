@@ -9,8 +9,8 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
-      offset: 100,
+      duration: 3000,
+      offset: 200,
     });
   }, []);
 

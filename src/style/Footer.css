@@ -51,3 +51,31 @@
   object-fit: contain;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    margin: 50px 30px;
+  }
+
+  .footer__top {
+    display: block;
+  }
+  .left {
+    display: block;
+    text-align: center;
+  }
+  .left > h1 {
+    color: whitesmoke;
+    margin-bottom: 5px;
+  }
+  .center {
+    display: none;
+  }
+  .right {
+    display: block;
+  }
+  .right > img {
+    height: 250px;
+    margin-top: 20px;
+  }
+}

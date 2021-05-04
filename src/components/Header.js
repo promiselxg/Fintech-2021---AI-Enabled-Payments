@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="app__header__container">
           <div className="app__containerLeft">
-            <h1>Let's Empower the UNBANKED</h1>
+            <h1>Banking the UNBANKED</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nisi
               dolores ad earum modi nostrum fuga natus exercitationem laudantium
